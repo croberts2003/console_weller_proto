@@ -31,6 +31,12 @@ class Record():
         #choose_emotion will be a list of 1 to 3 emotion names
         #------code here------
         return choose_emotion
-        
+
+class Data():
+    def __init__(self):
+        self.nutrition = self.get_nutrition()
+        self.sleep = self.get_sleep()
+        self.discipline = self.get_discipline()
+        self.spirit = self.get_spirit()
 
 new_entry = Record()
